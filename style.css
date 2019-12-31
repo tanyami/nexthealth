@@ -1,0 +1,341 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+video {
+	opacity: 0.8;
+	width: 100%;
+	box-shadow: 0 8px 30px rgba(0,0,0,.25);
+	border-radius: 25px;
+}
+body {
+	font-family: Montserrat,sans-serif;
+	font-size: 1rem; 
+	line-height: 1;
+}
+.section_main {
+	background-color: #D9DDE1;
+	opacity: 1;
+	color: #fff!important;
+	padding: 413px 0 314px 0;
+}
+.container {
+	width: 75%;
+	margin: auto;
+}
+.jumbotron_section {
+	background-color: #D9DDE1!important;
+	text-align: center;
+	padding: 0px;
+}
+h1 {
+	font-size: 4.5rem;
+	font-weight: 700;
+}
+.jumbotron-section p {
+	font-size: 1.5rem;
+	margin-top: 18px;
+}
+.btn-primary {    
+    background: #50bbb7!important;
+    border-color: #50bbb7;
+    box-shadow: 0px 7px 17px #50BBB7CC;
+	opacity: 1;
+	padding: 14px 102px;
+	font-size: 1.125rem;
+	border-radius: 48px;
+	margin-top: 170px;
+	font-weight: 700; 
+}
+h2 {
+	font-size: 3rem;
+	font-weight: 700;
+	text-align: center;
+	color: #455C6F;
+}
+.section_therapy {
+	padding: 180px 0px;
+	
+}
+.section_therapy_video {
+	margin-top: 130px;	
+}
+.section_therapy_text {
+	padding: 185px 0px 0px 57px;
+	width: 82%;
+}
+.section_therapy_text p {
+	line-height: 1.5;
+	color: #455C6F;
+	text-align: right;
+}
+.btn-lg-section-text {
+	margin-top: 65px;
+}
+.section_uses {
+	background: #DFE5F2;
+	padding: 50px 0px 148px 0px; 
+}
+.container_uses h2 {
+	margin-top: 50px;
+
+}
+.section_uses_text_list a {
+	margin-top: 65px;
+}
+.section_uses_text {
+	margin-top: 183px;
+}
+.section_uses_text_list li {
+	padding: 20px 0px;
+	font-weight: 700;
+	list-style: none;
+}
+.section_uses_text_list li a {
+	cursor: pointer;
+	text-decoration: none; 
+	font-size: 22px;
+	color: #455C6F;
+	padding-bottom: 5px;
+	line-height: 2;
+}
+.section_uses_text_list li a:hover {
+    text-decoration: underline;
+	text-decoration-color:#50bbb7;
+}
+.section_uses_video {
+	margin-top: 130px;
+}
+
+
+
+.section_work {
+	padding: 180px 0px; 
+}
+.section_video_work {
+	margin-top: 130px;
+}
+.section_work_text {
+	margin-top: 130px;
+	width: 80%;
+}
+.section_work_text p {
+	text-align: left;
+	font-size: 18px;
+	color: #455C6F;
+	line-height: 1.5;
+}
+.btn-lg-section_text {
+	margin-top: 65px;
+}
+
+
+
+
+.section_about {
+	background: #DFE5F2;
+	padding: 48px 0px 138px 0;
+}
+.section_about h2 {
+	margin: 48px 0 126px 0; 
+}
+.section_about_icon {
+	margin: auto; 
+}
+.section_about_icon p {
+	font-size: 1rem;
+}
+.section_about_icon img{
+	max-width: 150px;
+	max-height: 150px;
+	margin: auto;
+}
+h3 {
+	font-size: 22px;
+	font-weight: 700;
+	padding-top: 55px;
+}
+.section_about_icon_list ul li{
+	margin-top: 72px;
+	margin-bottom: 43px;
+}
+.section_about_icon p {
+	margin-top: 72px;
+}
+.section_start {
+	margin-top: 180px;
+	margin-bottom: 180px;
+}
+.section_video_start {
+	margin-top: 180px;
+}
+.section_testimonials h2{
+	padding-bottom: 130px;
+}
+.testimonials {
+	background: transparent #fff/*url('img/bg.png')*/ 0% 0% no-repeat padding-box;
+	box-shadow: 0px 8px 30px #33333334;
+	border-radius: 25px;
+	height: 630px;
+}
+.testimonials img {
+	width: 119px;
+	padding-top: 45px;
+	padding-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}	
+.testimonials p {
+	font-style: italic;
+	font-size: 18px;
+	padding: 35px;
+	color:#22252A;
+	line-height: 1.5;
+	padding: 0 50px;
+	
+}
+.testimonials p span {
+	font-style: normal;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 30px 0 68px 0px;
+	display: flex;
+	justify-content: center;
+}
+.btn-lg-section-testimonials {
+	display: flex;
+	justify-content: center;
+}
+footer {
+	background-color: #1b242c;
+    display: table;
+    font-size: 0;
+    padding: 32px;
+    text-align: left;
+    width: 100%;
+}
+footer p, h4 {
+	color: #fff;
+    opacity: 0.5;
+}
+.container_footer {
+	width: 95%;
+	margin: auto;
+	padding: 32px;
+	color: #fff;
+    opacity: 0.5;
+}
+.container_footer_mail p {
+	/*color: #fff;
+    opacity: 0.5;*/
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+}
+.container_footer_mail p a:active {
+	color: #fff;
+    opacity: 0.5;
+}
+.container_footer_mail img {
+    margin-bottom: 20px;
+}
+.copyright {!important
+    margin-top: 70px!important;
+    /*color: #fff;
+    opacity: 0.5;*/
+    font-size: 11px;
+}
+h4 {
+	/*color: #fff;
+	opacity: .5;*/
+	font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.container_footer_links ul li a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.container_footer_links ul li {
+    margin-bottom: 20px;
+}
+.container_footer_note p {
+	font-size: 11px;
+	line-height: 1.5;	
+}
+.container_footer_search {
+	
+}
+.btn {
+	border-radius: 35px;
+	background: transparent;
+	border-left: none;
+}
+.form-control {
+	border-radius: 35px;
+	background: transparent;
+	border-right-style: transparent;
+}
+.social a i {
+	background-color: hsla(0,0%,100%,.5);
+    border-radius: 100%;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 15px 15px 0;
+    text-align: center;
+    vertical-align: top;
+    width: 32px;
+}
+@media screen and (max-width: 767px) {
+.jumbotron_section{
+    padding: 130px 24px;
+}
+h1{
+	font-size: 48px;
+    line-height: 47px;
+}
+.btn-primary{
+	font-size: 16px;
+    width: 207px;
+}
+}
+@media screen and (max-width: 425px){
+.btn-primary {
+    font-size: 16px;
+    width: 207px;
+}
+}
